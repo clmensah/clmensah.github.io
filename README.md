@@ -1,3 +1,3 @@
 # clmensah.github.io
 
-This is my portfokio website! It is still in progress.
+This is my portfolio website! It is still in progress.
