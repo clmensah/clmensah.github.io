@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="bounce.css">
+	<link rel="icon" href="./images/emoji.png">
+	<script src="bounce.js"></script>
+	<title>Larraine Mensah</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top border border-secondary " id="navbar">
+		<a href="index.html" title="Home"><img src="./images/emoji.png" alt="Go to homepage" width="40" height=40></a>
+		<div class="container-fluid ">
+			<ul class="nav ms-auto">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="resume.html">Résumé</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						Projects
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="https://github.com/clmensah/animal-adoption">Mock Pet
+								Adoption Page</a></li>
+						<li><a class="dropdown-item" href="#">Mancala</a></li>
+						<li><a class="dropdown-item" href="#">Lemonaid</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Shoot me a message</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<main>
+			<div class="container-lg">
+				<form action="./sender.php">
+					<label for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname"><br>
+					<label for="lname">Last name:</label><br>
+					<input type="text" id="lname" name="lname"><br>
+					<label for="lname">Drop your e-mail below to forward a copy of this message to your
+						inbox:</label><br>
+					<input type="text" id="msg" name="msg"><br>
+					<label for="lname">Message:</label><br>
+					<textarea id="msg" name="msg"></textarea>
+				</form>
+				<p>Note: Please only use this form for brief messages (no more than 400 characters). For anything
+					longer, please send me an e-mail using the icon in the footer. I look forward to hearing from
+					you! :)</p>
+			</div>
+		</main>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+<footer>
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-bottom border border-secondary ">
+		<div class="container justify-content-md-center">
+			<div class="row-xs-12">
+				<a href="https://www.linkedin.com/in/clmensah/"><img src="./images/linkedin.svg"></a>
+				<a href="mailto:clmensah@uga.edu"><img src="./images/envelope.svg"></a>
+			</div>
+		</div>
+	</nav>
+</footer>
+
+</html>
