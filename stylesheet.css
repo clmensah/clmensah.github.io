@@ -5,15 +5,11 @@ body {
 	padding-top: 70px;
 }
 
-/* img {
-} */
-
 .navbar {
 	background-color: #9cd19e;
 }
 
 #headshot, #resume {
-	/* padding: 10px; */
 	 border: 1px solid black; 
 }
 
@@ -25,7 +21,6 @@ footer {
 .card {
 	background-color: rgba(243, 154, 144, 0.678);
 	text-align: center;
-	/* border: 1px solid #9cd19e; */
 	border: 1px solid;
 	max-width: 540px;
 }
