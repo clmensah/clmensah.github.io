@@ -9,6 +9,15 @@ body {
 	background-color: #9cd19e;
 }
 
+.navbar.center .navbar-inner {
+	text-align: center;
+ }
+ 
+ .navbar.center .navbar-inner nav {
+	display:inline-block;
+	float: none;
+ }
+
 #headshot, #resume {
 	 border: 1px solid black; 
 }
