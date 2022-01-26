@@ -7,16 +7,18 @@ body {
 
 .navbar {
 	background-color: #9cd19e;
+	color: black;
 }
 
-.navbar.center .navbar-inner {
+.navbar.center .navbar-inner .navbar-collapse nav {
 	text-align: center;
- }
- 
- .navbar.center .navbar-inner nav {
-	display:inline-block;
+ 	display:inline-block;
 	float: none;
- }
+}
+
+.navbar li {
+	list-style-type: none;
+}
 
 #headshot, #resume {
 	 border: 1px solid black; 

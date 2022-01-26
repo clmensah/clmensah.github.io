@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="/stylesheet.css">
 	<link rel="stylesheet" href="/bounce.css">
 	<script src="/bounce.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
 	<link rel="icon" href="/images/emoji.png">
 	<title>Larraine Mensah</title>
 </head>
@@ -17,32 +20,38 @@
 	<div class="container">
 		<div class="row-xl-12 ">
 			<nav class="navbar navbar-expand-sm navbar-dark fixed-top border border-secondary " id="navbar">
-				<a href="/index.html" title="Home icon"><img src="/images/emoji.png" alt="Go to homepage" width="40"
-						height=40></a>
-				<div class="container ">
-					<ul class="nav ms-auto">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/resume.html">Résumé</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Projects
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="/demos/demo1.html">Mock Pet
-										Adoption Page</a></li>
-								<li><a class="dropdown-item" href="/wip.html">Mancala</a></li>
-								<li><a class="dropdown-item" href="/wip.html">Grade Tracker</a></li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/messenger.html">Shoot me a message</a>
-						</li>
-					</ul>
+				<a class="d-none d-sm-block" href="/index.html" title="Home icon"><img src="/images/emoji.png"
+						alt="Go to homepage" width="40" height=40></a>
+				<div class="container">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class="nav navbar-dark ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/resume.html">Résumé</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Projects
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="/demos/demo1.html">Mock Pet
+											Adoption Page</a></li>
+									<li><a class="dropdown-item" href="/wip.html">Mancala</a></li>
+									<li><a class="dropdown-item" href="/wip.html">Grade Tracker</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/messenger.html">Shoot me a message</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 		</div>
@@ -52,14 +61,14 @@
 			<div class="container-lg">
 				<div class="row justify-content-center">
 					<div class="card border-dark mb-3 shadow shadow-offset-left-lg animation-target">
-						<div class="row ">
+						<div class="row">
 							<div class="col-md-4" style="padding: 10px;">
-								<img src="/images/headshot.jpg" class="img-fluid rounded" id="headshot"
+								<img src="/images/headshot.jpg" class="img-fluid rounded d-none d-md-block" id="headshot"
 									alt="Headshot">
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
-									<h1 class="card-title">Hi, I'm Larraine!</h1>
+									<h1 class="card-title ">Hi, I'm Larraine!</h1>
 									<p class="card-text">Pleasure meeting you.</p>
 								</div>
 							</div>
@@ -118,9 +127,7 @@
 			</div>
 		</main>
 	</div>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-		crossorigin="anonymous"></script>
+
 </body>
 <footer>
 	<nav class="navbar navbar-expand-sm navbar-dark fixed-bottom border border-secondary " id="navbar">
