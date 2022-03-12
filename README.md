@@ -1,4 +1,4 @@
-[Click here to visit my website](www.clmensah.studio)
+[Click here to visit my website](https://www.clmensah.studio)
 
 This is my portfolio website! I periodically update it with changes to my resume, new projects, and more.
 
